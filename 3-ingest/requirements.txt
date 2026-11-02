@@ -1,0 +1,8 @@
+# chunk / index / search (CPU). Shares extract.storage + extract.clean with 2-extract (copied into the image).
+pandas==2.2.3
+pyarrow==18.1.0
+numpy<2.1
+scipy>=1.11,<1.15
+gcsfs==2025.10.0
+google-auth==2.39.0
+requests==2.32.3

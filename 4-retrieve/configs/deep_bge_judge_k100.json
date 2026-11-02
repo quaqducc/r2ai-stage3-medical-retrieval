@@ -1,0 +1,19 @@
+{
+ "dense_langs": [
+  "vi"
+ ],
+ "sparse_langs": [
+  "vi"
+ ],
+ "k_docs": 100,
+ "cand_docs": 150,
+ "k_chunks": 1,
+ "chunk_docs": 10,
+ "lang_weight": {
+  "en": 0.0,
+  "zh": 0.5
+ },
+ "deep_judge": 60,
+ "judge_batch": 10,
+ "judge_chars": 700
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+runs/
+3-ingest/colab/dist/
+*.pkl
+submission*.json
+submission*.zip

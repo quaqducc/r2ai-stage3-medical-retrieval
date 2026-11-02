@@ -1,0 +1,18 @@
+{
+ "k_chunks": 1,
+ "lang_weight": {
+  "en": 0.0,
+  "zh": 0.5
+ },
+ "dense_langs": [
+  "vi",
+  "zh"
+ ],
+ "sparse_langs": [
+  "vi",
+  "zh"
+ ],
+ "k_docs": 200,
+ "cand_docs": 200,
+ "chunk_docs": 20
+}

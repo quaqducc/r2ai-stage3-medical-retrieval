@@ -1,0 +1,95 @@
+﻿language,domain,urls,crawled,crawled_ok,ok_pct,not_crawled,fetch_errors,content_ok,issue
+zh,www.120ask.com,98160,yes,98153,99.99,0,7,needs work,Văn bản lẫn menu điều hướng (7% mẫu trùng khung menu): cần cắt trước khi chia chunk
+zh,www.cnkang.com,40046,yes,40040,99.99,0,6,yes,
+zh,ask.39.net,32772,yes,32761,99.97,0,11,needs work,"Hỏi đáp ngắn, 13% mẫu dưới 300 ký tự"
+zh,www.familydoctor.com.cn,26819,yes,26819,100.0,0,0,yes,
+zh,zysjonline.com,6591,partial,4638,70.37,1953,0,needs work,Còn thiếu URL do Cloudflare Turnstile
+zh,zhongyibaodian.net,6061,yes,6061,100.0,0,0,yes,
+zh,www.a-hospital.com,4701,yes,4701,100.0,0,0,needs work,13% mẫu dưới 300 ký tự
+zh,www.youlai.cn,4139,yes,4122,99.59,0,17,yes,
+zh,baby.39.net,3368,yes,3368,100.0,0,0,yes,
+zh,test.pmphai.com,2989,yes,2989,100.0,0,0,needs work,20% mẫu dưới 300 ký tự
+zh,jbk.39.net,2033,yes,2033,100.0,0,0,yes,
+zh,care.39.net,1282,yes,1282,100.0,0,0,yes,
+zh,heart.39.net,1055,yes,1055,100.0,0,0,yes,
+zh,fk.39.net,928,yes,928,100.0,0,0,yes,
+zh,www.msdmanuals.cn,905,yes,897,99.12,0,8,needs work,"Nội dung nằm trong JSON __NEXT_DATA__, cần parser riêng"
+zh,nk.39.net,762,yes,762,100.0,0,0,yes,
+zh,cancer.39.net,736,yes,736,100.0,0,0,yes,
+zh,article.iiyi.com,729,partial,97,13.31,163,469,broken,"Phần lớn lỗi 521, chỉ cứu được qua Wayback"
+zh,tnb.39.net,717,yes,717,100.0,0,0,yes,
+zh,www.wujue.com,708,yes,708,100.0,0,0,yes,
+zh,woman.39.net,687,yes,687,100.0,0,0,yes,
+zh,food.39.net,594,yes,594,100.0,0,0,yes,
+zh,jb39.com,527,yes,527,100.0,0,0,yes,
+zh,ek.39.net,448,yes,448,100.0,0,0,yes,
+zh,man.39.net,382,yes,382,100.0,0,0,yes,
+zh,shen.39.net,325,yes,325,100.0,0,0,yes,
+zh,gan.39.net,294,yes,294,100.0,0,0,yes,
+zh,wei.39.net,225,yes,225,100.0,0,0,yes,
+zh,www.zydcd.com,204,yes,204,100.0,0,0,needs work,20% mẫu dưới 300 ký tự
+zh,sj.39.net,197,yes,197,100.0,0,0,yes,
+zh,fitness.39.net,185,yes,185,100.0,0,0,yes,
+zh,gk.39.net,90,yes,90,100.0,0,0,yes,
+zh,pf.39.net,85,yes,85,100.0,0,0,yes,
+zh,baidianfeng.familydoctor.com.cn,60,yes,60,100.0,0,0,yes,
+zh,gc.39.net,59,yes,59,100.0,0,0,yes,
+zh,health.people.com.cn,50,yes,50,100.0,0,0,yes,
+zh,byby.39.net,37,yes,37,100.0,0,0,yes,
+zh,qihuangzhishu.com,29,yes,29,100.0,0,0,yes,
+zh,www.baidu.com,11,yes,3,27.27,0,8,broken,Đa số chặn bởi robots
+zh,bingli.iiyi.com,5,yes,3,60.0,0,2,needs work,
+zh,www.familydoctor.cn,2,yes,2,100.0,0,0,yes,
+zh,qy.familydoctor.com.cn,2,yes,2,100.0,0,0,yes,
+zh,ask.familydoctor.com.cn,1,yes,1,100.0,0,0,yes,
+vi,suckhoecongdongonline.vn,154503,yes,154503,100.0,0,0,yes,
+vi,suckhoedoisong.vn,85823,yes,85823,100.0,0,0,yes,
+vi,nhathuoclongchau.com.vn,79598,yes,79266,99.58,0,332,yes,Phần lớn lấy từ Wayback: nội dung có thể cũ hơn site thật
+vi,thanhnien.vn,72111,yes,72111,100.0,0,0,yes,
+vi,laodong.vn,31282,yes,31282,100.0,0,0,yes,
+vi,phunusuckhoe.giadinhonline.vn,27577,yes,27577,100.0,0,0,yes,
+vi,www.vinmec.com,26129,yes,25990,99.47,0,139,yes,Đã crawl lại: có nội dung đầy đủ (bản cũ chỉ là trang chặn)
+vi,medlatec.vn,24762,yes,24760,99.99,0,2,yes,
+vi,giadinhonline.vn,16729,yes,16728,99.99,0,1,yes,
+vi,baohaiphong.vn,16286,yes,16286,100.0,0,0,yes,
+vi,baonghean.vn,15941,yes,15937,99.97,0,4,yes,
+vi,vietnamnet.vn,15543,yes,15542,99.99,0,1,yes,
+vi,baodanang.vn,14500,yes,14500,100.0,0,0,yes,
+vi,tiemchunglongchau.com.vn,13281,yes,13271,99.92,0,10,yes,
+vi,baocantho.com.vn,12016,yes,12016,100.0,0,0,needs work,10% mẫu lẫn khối tin liên quan lặp lại
+vi,hellobacsi.com,11747,yes,11746,99.99,0,1,yes,
+vi,baoangiang.com.vn,10738,yes,10738,100.0,0,0,yes,
+vi,vov.vn,9784,yes,9782,99.98,0,2,needs work,"10% mẫu lẫn khung ""Chọn cỡ chữ"": cần cắt boilerplate"
+vi,khoahocphothong.vn,8143,yes,8137,99.93,0,6,yes,
+vi,youmed.vn,7189,yes,7189,100.0,0,0,yes,
+vi,vov2.vov.vn,6899,yes,6894,99.93,0,5,yes,
+vi,phuyen.baodaklak.vn,6252,yes,6252,100.0,0,0,yes,
+vi,suckhoeviet.org.vn,5627,yes,5627,100.0,0,0,yes,
+vi,baoquangtri.vn,5483,yes,5483,100.0,0,0,yes,
+vi,pmc-ecm-healthblog.beta.pharmacity.io,5333,yes,5286,99.12,0,47,yes,
+vi,nhandan.vn,5225,yes,5224,99.98,0,1,yes,
+vi,baovinhlong.com.vn,5113,yes,5113,100.0,0,0,yes,
+vi,tamanhhospital.vn,4261,yes,4260,99.98,0,1,yes,
+vi,tuoitre.vn,3893,yes,3893,100.0,0,0,yes,
+vi,www.qdnd.vn,3700,yes,3700,100.0,0,0,yes,
+vi,www.vietnamplus.vn,3695,yes,3695,100.0,0,0,yes,
+vi,baogialai.com.vn,3290,yes,3290,100.0,0,0,yes,
+vi,tienphong.vn,3021,yes,3021,100.0,0,0,yes,
+vi,thaythuocvietnam.vn,2927,yes,2823,96.45,0,104,needs work,"Phần lớn lấy từ Wayback, một phần link chết"
+vi,baoquangninh.vn,2912,yes,2911,99.97,0,1,yes,
+vi,bachmai.gov.vn,2783,yes,2783,100.0,0,0,yes,
+vi,baochinhphu.vn,2302,yes,2302,100.0,0,0,yes,
+vi,dantri.com.vn,2063,yes,2063,100.0,0,0,yes,Phần lớn lấy từ Wayback
+vi,vnexpress.net,2055,yes,2055,100.0,0,0,yes,
+vi,baolangson.vn,1981,yes,1979,99.9,0,2,yes,
+vi,www.sggp.org.vn,1853,yes,1853,100.0,0,0,yes,
+vi,baophutho.vn,1288,yes,1288,100.0,0,0,yes,
+vi,hanoimoi.vn,1283,yes,1283,100.0,0,0,yes,
+vi,benhviennhitrunguong.gov.vn,1200,yes,1200,100.0,0,0,yes,
+vi,baotayninh.vn,1198,yes,1198,100.0,0,0,broken,"HTML lỗi cấu trúc, trafilatura trả rỗng 100%: cần parser lxml riêng"
+vi,baothanhhoa.vn,782,yes,782,100.0,0,0,yes,
+vi,benhvienvietduc.org,425,yes,425,100.0,0,0,yes,
+vi,www.pharmacity.vn,69,yes,64,92.75,0,5,needs work,
+vi,mega.vietnamplus.vn,2,yes,2,100.0,0,0,yes,
+vi,special.vietnamplus.vn,1,yes,1,100.0,0,0,yes,
+en,pubmed.ncbi.nlm.nih.gov,240000,yes,239939,99.97,0,61,needs work,"Lưu dạng XML efetch: lấy tiêu đề + abstract + MeSH, không dùng trafilatura"

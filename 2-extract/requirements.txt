@@ -1,0 +1,10 @@
+trafilatura==2.0.0
+lxml==5.3.0
+lxml_html_clean==0.4.4
+zstandard==0.23.0
+pyarrow==18.1.0
+pandas==2.2.3
+gcsfs==2025.10.0
+google-auth==2.39.0
+requests==2.32.3
+apsw==3.51.0.0

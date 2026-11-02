@@ -1,0 +1,12 @@
+{
+ "k_chunks": 1,
+ "lang_weight": {
+  "en": 0.0,
+  "zh": 0.5
+ },
+ "tag": "bm25",
+ "dense_langs": [],
+ "k_docs": 200,
+ "cand_docs": 200,
+ "chunk_docs": 20
+}
