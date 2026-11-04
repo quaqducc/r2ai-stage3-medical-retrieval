@@ -16,6 +16,7 @@ lang: vi
 | **Bài nộp được báo cáo** | `i_dprf15` |
 
 Phân công công việc trong đội:
+
 - **Thu thập dữ liệu:** crawl 1,22 triệu URL trên 94 domain.
 - **Xử lý dữ liệu:** trích nội dung, phân đoạn, dựng chỉ mục.
 - **Truy hồi:** xây pipeline truy hồi, thử nghiệm trên leaderboard.
@@ -85,6 +86,7 @@ Hệ thống không cần huấn luyện mô hình nào. Toàn bộ chạy **off
 | Hạ tầng | Docker (3 image: extract / ingest / retrieve), Google Cloud Storage, VM GCP 16 vCPU, Google Colab T4 cho bước nhúng |
 
 Hệ thống gồm hai pha:
+
 - **Ingest** dựng kho văn bản và chỉ mục, chạy một lần.
 - **Retrieve** trả lời 1.200 câu hỏi, chạy trong vài phút khi đã có chỉ mục và plan.
 
@@ -173,6 +175,7 @@ index:   {dense: "rag/dense/bge-m3/<lang>/*.npy", sparse: "rag/sparse_index/bge-
    - **Đoạn trích:** xếp hạng lại chỉ bằng nhóm A + B, vì đó là các tín hiệu ở cấp đoạn. Lấy 135 chunk đầu toàn cục thuộc 150 tài liệu đó, tối đa 3 chunk mỗi tài liệu. Mỗi đoạn là nguyên văn một chunk, không ghép, không cắt.
 
 **Vì sao chọn các con số này:**
+
 - **150 tài liệu:** mỗi câu hỏi có khoảng 45 tài liệu đúng, và F2 thưởng recall.
 - **Tiếng Anh (PubMed) nhân 0:** gold không có tài liệu PubMed.
 - **Tiếng Trung nhân 0,35:** gold có ít tài liệu tiếng Trung.
