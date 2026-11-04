@@ -7,3 +7,8 @@ runs/
 *.pkl
 submission*.json
 submission*.zip
+docs/tex/*.aux
+docs/tex/*.log
+docs/tex/*.out
+docs/tex/*.toc
+docs/tex/solution.pdf
