@@ -6,10 +6,9 @@ Bài nộp được báo cáo là **`i_dprf15`**: FINAL **0,3577** trên vòng p
 
 | Tài liệu | Nội dung |
 |---|---|
-| [docs/1_tong_quan_he_thong.md](docs/1_tong_quan_he_thong.md) | Phương pháp, kiến trúc, sơ đồ luồng xử lý, cách xây chỉ mục, truy hồi, gộp và lựa chọn |
-| [docs/2_du_lieu.md](docs/2_du_lieu.md) | Nguồn dữ liệu, thu thập, làm sạch, phân đoạn, đường dẫn truy cập |
-| [docs/3_mo_hinh.md](docs/3_mo_hinh.md) | Mô hình, checkpoint, cấu hình, prompt |
+| [docs/THUYET_MINH.md](docs/THUYET_MINH.md) (+ bản `.docx`) | **Tài liệu thuyết minh theo đúng mục 1.1–1.5 của BTC**: tổng quan hệ thống và sơ đồ, dữ liệu, mô hình và prompt, mã nguồn, hướng dẫn |
 | [docs/4_ket_qua.md](docs/4_ket_qua.md) | Điểm từng bài nộp, tiến trình, các thí nghiệm không hiệu quả |
+| [3-ingest/CHUNKING.md](3-ingest/CHUNKING.md), [2-extract/REPORT.md](2-extract/REPORT.md) | Đặc tả phân đoạn; báo cáo chất lượng bước trích |
 
 ## 1. Cấu trúc repo
 
@@ -29,7 +28,7 @@ docs/          tài liệu thuyết minh
 | Máy chạy chính | Linux x86-64; nhóm dùng GCP e2-standard-16 (16 vCPU, 64 GB RAM), đĩa ≥ 100 GB |
 | GPU (chỉ cho bước `embed`) | 1 × NVIDIA T4 16 GB (Colab hoặc Kaggle là đủ), khoảng 10 giờ |
 | Docker | ≥ 24 |
-| Google Cloud SDK | `gcloud` ≥ 450, có quyền đọc `gs://aiguru_crawler` (xem [docs/2_du_lieu.md](docs/2_du_lieu.md) §2.5) |
+| Google Cloud SDK | `gcloud` ≥ 450, có quyền đọc `gs://aiguru_crawler` (xem [docs/THUYET_MINH.md](docs/THUYET_MINH.md) mục 1.2) |
 | Python (trong image) | 3.11.11 (`python:3.11.11-slim-bookworm`) |
 
 **Thư viện chính** (pin trong các Dockerfile và `requirements*.txt`):

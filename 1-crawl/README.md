@@ -2,7 +2,7 @@
 
 > **Mã nguồn crawler:** thành viên phụ trách crawl sẽ bổ sung vào thư mục này (`1-crawl/`).
 > Đầu ra của bước này là `gs://aiguru_crawler/crawl/db/<host>.sqlite` (HTML/XML nén zstd, mỗi host một file) và
-> `crawl/manifest.parquet`. Đây là đầu vào của bước 2 (`2-extract`), xem [docs/2_du_lieu.md](../docs/2_du_lieu.md) §2.2.
+> `crawl/manifest.parquet`. Đây là đầu vào của bước 2 (`2-extract`), xem [docs/THUYET_MINH.md](../docs/THUYET_MINH.md) mục 1.2.
 
 **Crawl đã xong. Bước tiếp theo là trích văn bản và đánh index.**
 
