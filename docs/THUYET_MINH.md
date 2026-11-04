@@ -239,4 +239,4 @@ Các tài liệu tiếng Trung chỉ xuất hiện nhờ bản dịch `zh_q`. Ch
 
 # 4. Tham khảo
 
-Mã nguồn, dữ liệu, checkpoint và hướng dẫn cài đặt, chạy lại: **[LINK GITHUB]** (xem `README.md`).
+Mã nguồn, dữ liệu, checkpoint và hướng dẫn cài đặt, chạy lại: **<https://github.com/quaqducc/r2ai-stage3-medical-retrieval>** (xem `README.md`).

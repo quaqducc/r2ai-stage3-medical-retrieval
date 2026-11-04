@@ -80,7 +80,7 @@ Client LLM (`4-retrieve/retrieve/llm.py`) gọi endpoint OpenAI-compatible với
 Bước này dùng các danh sách truy hồi đã công bố (`release/v1/run/lists_docprf.pkl`) và chunk nguyên văn (`ingest/v1/rag/chunks`). Nó chạy lại phần gộp RRF, lựa chọn và ghi file, rồi so với file đã nộp.
 
 ```bash
-git clone <repo> && cd <repo>
+git clone https://github.com/quaqducc/r2ai-stage3-medical-retrieval.git && cd r2ai-stage3-medical-retrieval
 gcloud auth login                                        # tài khoản đã được cấp quyền đọc bucket
 mkdir -p ~/data && cp /path/to/query.parquet ~/data/     # file câu hỏi của BTC
 sudo docker build -f 4-retrieve/Dockerfile -t r2ai-retrieve:v1 .
