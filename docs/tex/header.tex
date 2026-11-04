@@ -1,0 +1,16 @@
+\usepackage{xcolor}
+\definecolor{brand}{HTML}{1A73E8}
+\definecolor{ink}{HTML}{202124}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{brand}}{}{0em}{}[{\color{brand}\titlerule[0.8pt]}]
+\titleformat{\subsection}{\large\bfseries\color{ink}}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{brand}}{}{0em}{}
+\usepackage{fvextra}
+\fvset{breaklines,breakanywhere,fontsize=\footnotesize}
+\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{gray}R2AI 2026 -- Stage 3 · Đội chande}\fancyhead[R]{\small\color{gray}Tài liệu thuyết minh}
+\fancyfoot[C]{\small\thepage}\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\arraystretch}{1.25}
+\usepackage{caption}\captionsetup{font=small,labelformat=empty}
+\setlength{\parskip}{4pt}
+\xeCJKDeclareCharClass{Default}{"00B7,"2013,"2014,"2018,"2019,"201C,"201D,"2026}

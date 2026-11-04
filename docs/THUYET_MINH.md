@@ -10,7 +10,7 @@ lang: vi
 | | |
 |---|---|
 | **Tên đội** | **chande** (tài khoản leaderboard: `chande`) |
-| **Thành viên** | [Họ tên – vai trò], [Họ tên – vai trò], [Họ tên – vai trò] |
+| **Thành viên** | Đàm Quang Đức · Vũ Hữu An · Nguyễn Trần Nghĩa |
 | **Bài toán** | R2AI 2026 – Stage 3: truy hồi tài liệu y khoa đa ngữ (Việt – Trung – Anh) |
 | **Kết quả vòng public** | FINAL **0,3577** (Docs F2 0,3900 · Chunks F2 0,3255), hạng **7/50** |
 | **Bài nộp được báo cáo** | `i_dprf15` |
